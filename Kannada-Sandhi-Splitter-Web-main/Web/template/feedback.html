@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
+    <style>
+      html, body {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      }
+      body, div, h1, form, input, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px;
+      color: #666;
+      }
+      h1 {
+      padding: 10px 0;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: center;
+      }
+      p {
+      font-size: 12px;
+      }
+      hr {
+      color: #a9a9a9;
+      opacity: 0.3;
+      }
+      .main-block {
+      max-width: 500px; 
+      width : 400px;
+      height : 430px;
+      min-height: 340px; 
+      padding: 10px 0;
+      margin: auto;
+      border-radius: 5px; 
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      background: #ebebeb; 
+      margin-top: 130px;
+      }
+      form {
+      margin: 0 30px;
+      }
+      .account-type, .gender {
+      margin: 15px 0;
+      }
+      input[type=radio] {
+      display: none;
+      }
+      label#icon {
+      margin: 0;
+      border-radius: 5px 0 0 5px;
+      }
+      label.radio {
+      position: relative;
+      display: inline-block;
+      padding-top: 4px;
+      margin-right: 20px;
+      text-indent: 30px;
+      overflow: visible;
+      cursor: pointer;
+      }
+      label.radio:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #1c87c9;
+      }
+      label.radio:after {
+      content: "";
+      position: absolute;
+      width: 9px;
+      height: 4px;
+      top: 8px;
+      left: 4px;
+      border: 3px solid #fff;
+      border-top: none;
+      border-right: none;
+      transform: rotate(-45deg);
+      opacity: 0;
+      }
+      input[type=radio]:checked + label:after {
+      opacity: 1;
+      }
+      input[type=text], input[type=password] , select[name=sandhi] {
+      width: calc(100% - 57px);
+      height: 36px;
+      margin: 13px 0 0 -5px;
+      padding-left: 10px; 
+      border-radius: 0 5px 5px 0;
+      border: solid 1px #cbc9c9; 
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: #fff; 
+      }
+      input[type=password] {
+      margin-bottom: 15px;
+      }
+      #icon {
+      display: inline-block;
+      padding: 9.3px 15px;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: #1c87c9;
+      color: #fff;
+      text-align: center;
+      }
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 60%;
+      padding: 10px 0;
+      margin: 10px auto;
+      border-radius: 5px; 
+      border: none;
+      background: #1c87c9; 
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      }
+      button:hover {
+      background: #26a9e0;
+      }
+      .input-element
+      {
+      margin-top: 10px;
+      text-align: center;
+      width: 80%;
+      margin: auto;
+      }
+      
+       .select-tag
+      {
+      margin-top: 10px;
+      text-align: center;
+      width: 83%;
+      margin: auto;
+      }
+      .substatus {
+      position : absolute;
+  	top : 90%;
+      }
+      .substatus p {
+      font-size : 20px;
+      }
+      
+      optgroup { font-size:15px; }
+      
+      .login-info {
+      position : absolute;
+  	top : 5%;
+      }
+      .login-info p {
+      font-size : 20px;
+      }
+      
+      .btn.btn-default.btn-sm {
+      width : 75px;
+      }
+
+            footer {
+  background-color: #ffffff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: none;
+  }
+  
+  .credits {
+    font-size: 12px;
+    color: #222;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .credits a {
+    color: #ccc;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    transition: border-bottom 0.2s;
+  }
+  
+  .credits a:hover {
+    border-bottom: 1px solid #fff;
+  }
+      
+    </style>
+  </head>
+  
+  <body>
+  
+  <div class="login-info" id="login-info">
+    
+    </div>
+
+    <div class="main-block">
+      <h3 id="heading"></h3>
+        <hr>
+        <div class='input-element'>
+        <label id="icon" for="purvapada"><i class="fa-solid fa-pen"></i></label>
+        <input type="text" name="purvapada" id="purvapada" placeholder="ಪೂರ್ವಪದ" required/>
+        <label id="icon" for="uttarapada"><i class="fa-solid fa-pen"></i></label>
+        <input type="text" name="uttarapada" id="uttarapada" placeholder="ಉತ್ತರಪದ" required/>
+        
+        </div>
+        <div class="select-tag">
+        <label id="icon" for="sandhi"><i class="fa-solid fa-pen"></i></label>
+        <select name="sandhi" id="sandhi" required>
+         <optgroup>
+  	<option value="ಲೋಪ">ಲೋಪ ಸಂಧಿ</option>
+  	<option value="ಆಗಮ">ಆಗಮ ಸಂಧಿ</option>
+  	<option value="ಆದೇಶ">ಆದೇಶ ಸಂಧಿ</option>
+  	<option value="ಸವರ್ಣದೀರ್ಘ">ಸವರ್ಣದೀರ್ಘ ಸಂಧಿ</option>
+  	<option value="ಗುಣ">ಗುಣ ಸಂಧಿ</option>
+  	<option value="ವೃದ್ಧಿ">ವೃದ್ಧಿ ಸಂಧಿ</option>
+  	<option value="ಯಣ್">ಯಣ್ ಸಂಧಿ</option>
+  	<option value="ಜಶ್ತ್ವ">ಜಶ್ತ್ವ ಸಂಧಿ</option>
+  	<option value="ಶ್ಚುತ್ವ">ಶ್ಚುತ್ವ ಸಂಧಿ</option>
+  	<option value="ಷ್ಟುತ್ವ">ಷ್ಟುತ್ವ ಸಂಧಿ</option>
+  	<option value="ಅನುನಾಸಿಕ">ಅನುನಾಸಿಕ ಸಂಧಿ</option>
+  	<option value="ಛತ್ವ">ಛತ್ವ ಸಂಧಿ</option>
+  	<option value="ವಿಸರ್ಗ">ವಿಸರ್ಗ ಸಂಧಿ</option>
+  	<option value="ಲಕಾರ ದ್ವಿತ್ವ">ಲಕಾರ ದ್ವಿತ್ವ ಸಂಧಿ</option>
+  	 </optgroup>
+	</select>
+        </div>
+        <br>
+        <br>
+        <div class="btn-block">
+          <button type="submit"  id="submitbutton" onclick="send()">ಸಲ್ಲಿಸು</button>
+        </div>
+    </div>
+    <div class="substatus" id="substatus">
+ 
+    </div>
+     <script>
+     var w = localStorage.getItem("inputword");
+     var name = sessionStorage.getItem("username");
+    var inst = sessionStorage.getItem("institution");
+     document.getElementById("heading").innerHTML = "<center>"+"' "+w+" '"+ " ಪದದ ಸಂಧಿ ಪದ ಛೇದವನ್ನು ತಿಳಿಸಿ "+"</center>";
+     
+     function senddata(data){
+        var jqXHR = $.ajax({
+            method: "POST",
+            url: "/feedback",
+            async: false,
+            data: {  data }
+        });
+        return jqXHR.responseText;
+        }
+       function send()
+       {
+       
+       var purva = document.getElementById("purvapada").value;
+     var uttara = document.getElementById("uttarapada").value;
+     var sandhi = document.getElementById("sandhi").value;
+     
+     var dict = {
+  	inputword: w,
+  	purvapada: purva,
+  	uttarapada : uttara,
+  	sandhi : sandhi,
+  	name : name,
+  	inst : inst
+  	
+	};
+	
+        result = senddata(dict);
+        var res = result.toString();
+        checkresult(res);
+       
+}
+
+function checkresult(r)
+{
+if (r.localeCompare("success") == 0)
+{
+document.getElementById("substatus").innerHTML = "<p><center> Your feedback has been submitted succesfully.<br>Thank you for using sandhi splitter. </center> </p>";
+
+setTimeout(function() {
+            document.location.href='/'
+        }, 3000);
+}
+else 
+{
+document.getElementById("substatus").innerHTML = "<p><center>There was an error in submitting your feedback.<br>Please enter all the fields and try again.</center></p>";
+setTimeout(function() {
+            document.location.href='/feedback'
+        }, 3000);
+}
+}
+
+
+    if (name && inst)
+    {
+    document.getElementById("login-info").innerHTML = "<center> <p> You have logged in as "+name+"-"+inst+" "+"<br> <button type='button' id='logout' onclick='redirectlogin()' class='btn btn-default btn-sm'> <span class='glyphicon glyphicon-log-out'></span> Log out</button></p> </center> <br> ";
+    }
+    else
+    {
+    document.getElementById("login-info").innerHTML = "<center> <p> You have not logged in. <br> <button type='button' id='login' onclick='redirectlogin()' class='btn btn-default btn-sm'> <span class='glyphicon glyphicon-log-out'></span> Log in</button></p> </center> <br>";
+    }
+    
+    function redirectlogin()
+    {
+    document.location.href = "/login";
+    }
+     </script>
+     
+     <footer>
+  <p>&copy; <b>Copyright DL-DL MT All Rights Reserved</b></p>
+  <div class="credits">
+    <b>Developed by Pranam R Betrabet and Yathish Poojary</b>
+  </div>
+</footer>
+     
+  </body>
+</html>
+
+

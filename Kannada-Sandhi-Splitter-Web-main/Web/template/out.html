@@ -1,0 +1,49 @@
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+html, body {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      }
+      
+.substatus {
+	margin : auto;
+      position : absolute;
+  	top : 40%;
+  	font-size : 25px;
+      }
+      
+</style>
+<title>Response</title>
+</head>
+<body>
+
+<div class="substatus" id="substatus">
+
+</div>
+
+<script>
+var result = localStorage.getItem("res");
+if (result.localeCompare("success") == 0)
+{
+document.getElementById("substatus").innerHTML = "<p> <center> Your response has been submitted succesfully.<br>Thank you for using sandhi splitter </center> </p>";
+
+setTimeout(function() {
+            document.location.href='/'
+        }, 3000);
+}
+else
+{
+document.getElementById("substatus").innerHTML = "<p> <center> There was an error in submitting your response.<br>Please try again. </center> </p>";
+setTimeout(function() {
+            document.location.href='/result'
+        }, 3000);
+}
+
+</script>
+</body>
+</html>

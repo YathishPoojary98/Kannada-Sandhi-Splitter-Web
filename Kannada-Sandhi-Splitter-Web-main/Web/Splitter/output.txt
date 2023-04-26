@@ -1,0 +1,501 @@
+found_print = [1, '\nವಿಸರ್ಗ ಸಂಧಿ  => ವಯಸ್ + ವೃದ್ಧಿ']
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಮಹ + ಉನ್ನತಿ']
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ವಾಕ್ + ಈಶ'] 
+Given word : ಮಾತಿಲ್ಲ 
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಮಾತು + ಇಲ್ಲ']
+Given word : ಆಡಿಸು
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಆಡು + ಇಸು']
+Given word : ಬೇರೊಬ್ಬ
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಬೇರು + ಒಬ್ಬ']
+Given word : ನಿನಗಲ್ಲದೆ
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ನಿನಗೆ + ಅಲ್ಲದೆ']
+Given word : ನಾವೆಲ್ಲಾ
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ನಾವು + ಎಲ್ಲಾ']
+Given word : ಮನೆಯಿಂದ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮನೆ + ಇಂದ']
+Given word : ಗುರುವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಗುರು + ಅನ್ನು']
+Given word : ಊರಲ್ಲಿ
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಊರು + ಅಲ್ಲಿ']
+Given word : ದೇವರಿಂದ
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ದೇವರು + ಇಂದ']
+Given word : ಬಲ್ಲೆನೆಂದು
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಬಲ್ಲೆನು + ಎಂದು']
+Given word : ಏನಾದುದು
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಏನು + ಆದುದು']
+Given word : ಇವನಿಗಾನು
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಇವನಿಗೆ + ಆನು']
+Given word : ಅವನೂರು
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಅವನ + ಊರು']
+Given word : ತೆನೆಯನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ತೆನೆ + ಅನ್ನು']
+Given word : ಕೈಯನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಕೈ + ಅನ್ನು']
+Given word : ಚಳಿಯಲ್ಲಿ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಚಳಿ + ಅಲ್ಲಿ']
+Given word : ಮಳೆಯಿಂದ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮಳೆ + ಇಂದ']
+Given word : ಗಾಳಿಯನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಗಾಳಿ + ಅನ್ನು']
+Given word : ಕೆರೆಯಲ್ಲಿ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಕೆರೆ + ಅಲ್ಲಿ']
+Given word : ಮರೆಯಿಂದ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮರೆ + ಇಂದ']
+Given word : ಪಿತೃವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಪಿತೃ + ಅನ್ನು']
+Given word : ಮಗುವಿಗೆ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮಗು + ಇಗೆ']
+Given word : ಆವುಂಗುರ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಆ + ಉಂಗುರ']
+Given word : ಆವೂರು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಆ + ಊರು']
+Given word : ಆವೊಲೆ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಆ + ಒಲೆ']
+Given word : ಪೂವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಪೂ + ಅನ್ನು']
+Given word : ಕಾಯದೆ
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಕಾಯು + ಅದೆ']
+Given word : ಗಿರಿಯನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಗಿರಿ + ಅನ್ನು']
+Given word : ಮೀಯಲು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮೀ + ಅಲು']
+Given word : ಕೆರೆಯನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಕೆರೆ + ಅನ್ನು']
+Given word : ಮೇಯಿಸು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮೇ + ಇಸು']
+Given word : ಮೈಯನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮೈ + ಅನ್ನು']
+Given word : ಮಡುವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮಡು + ಅನ್ನು']
+Given word : ಪೂವಿಂದ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಪೂ + ಇಂದ']
+Given word : ಮಾತೃವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮಾತೃ + ಅನ್ನು']
+Given word : ಗೋವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಗೋ + ಅನ್ನು']
+Given word : ಹೊಲವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಹೊಲ + ಅನ್ನು']
+Given word : ನೆಲವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ನೆಲ + ಅನ್ನು']
+Given word : ಕುಲವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಕುಲ + ಅನ್ನು']
+Given word : ತಿಲವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ತಿಲ + ಅನ್ನು']
+Given word : ಮನವನ್ನು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಮನ + ಅನ್ನು']
+Given word : ಆವೂಟ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಆ + ಊಟ']
+Given word : ಆವೊಂಟೆ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಆ + ಒಂಟೆ']
+Given word : ಆವೋಟ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಆ + ಓಟ']
+Given word : ಈಯುದಕ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಉದಕ']
+Given word : ಈಯುಂಗುರ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಉಂಗುರ']
+Given word : ಈಯೂರು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಊರು']
+Given word : ಈಯೊಲೆ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಒಲೆ']
+Given word : ಈಯೊಂಟೆ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಒಂಟೆ']
+Given word : ಈಯೋಕುಳಿ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಓಕುಳಿ']
+Given word : ಈಯೋಲೆ
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಓಲೆ']
+Given word : ನೋಯಲು
+found_print = [1, '\nಆಗಮ ಸಂಧಿ  => ನೋ + ಅಲು']
+Given word : ಮಳೆಗಾಲ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಮಳೆ + ಕಾಲ']
+Given word : ಚಳಿಗಾಲ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಚಳಿ + ಕಾಲ']
+Given word : ಬೆಟ್ಟದಾವರೆ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಬೆಟ್ಟ + ತಾವರೆ']
+Given word : ಕಂಗೆಟ್ಟು
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಕಣ್ + ಕೆಟ್ಟು']
+Given word : ಕಂಬನಿ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಕಣ್ + ಪನಿ']
+Given word : ಹುಲ್ಲುಗಾವಲು
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಹುಲ್ಲು + ಕಾವಲು']
+Given word : ಹಳಗನ್ನಡ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಹಳ + ಕನ್ನಡ']
+Given word : ಕಳೆಗೂಡಿ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಕಳೆ + ಕೂಡಿ']
+Given word : ಎಳೆಗರು
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಎಳೆ + ಕರು']
+Given word : ಮನೆಗೆಲಸ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಮನೆ + ಕೆಲಸ']
+Given word : ಮೈದೊಳೆ
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಮೈ + ತೊಳೆ']
+Given word : ಮೇರೆದಪ್ಪು
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಮೇರೆ + ತಪ್ಪು']
+Given word : ಬೆಂಬತ್ತು
+found_print = [1, '\nಆದೇಶ ಸಂಧಿ  => ಬೆನ್ + ಪತ್ತು']
+Given word : ಎಳವೆರೆ
+found_print = [1, '\nಆದೆಶ ಸಂಧಿ  => ಎಳ + ಪೆರೆ']
+Given word : ಎಳವಳ್ಳಿ
+found_print = [1, '\nಆದೆಶ ಸಂಧಿ  => ಎಳ + ಬಳ್ಳಿ']
+Given word : ನೆಲೆವನೆ
+found_print = [1, '\nಆದೆಶ ಸಂಧಿ  => ನೆಲೆ + ಮನೆ']
+Given word : ಇಂಚರ
+found_print = [1, '\nಆದೆಶ ಸಂಧಿ  => ಇನ್ + ಸರ']
+Given word : ದೇವಾಸುರ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ದೇವ + ಅಸುರ']
+Given word : ಸುರಾಸುರ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಸುರ + ಅಸುರ']
+Given word : ಮಹಾತ್ಮ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಮಹ + ಆತ್ಮ']
+Given word : ಕವೀಂದ್ರ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಕವಿ + ಇಂದ್ರ']
+Given word : ಗಿರೀಶ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಗಿರಿ + ಈಶ']
+Given word : ಲಕ್ಷ್ಮೀಶ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಲಕ್ಷ್ಮಿ + ಈಶ']
+Given word : ಗುರೂಪದೇಶ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಗುರು + ಉಪದೇಶ']
+Given word : ಸುರೇಶ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಸುರ + ಈಶ']
+Given word : ದೇವೇಂದ್ರ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ದೇವ + ಇಂದ್ರ']
+Given word : ಮಹೇಶ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಮಹ + ಈಶ']
+Given word : ಸೂರ್ಯೋದಯ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಸೂರ್ಯ + ಉದಯ']
+Given word : ಸುರೇಂದ್ರ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಸುರ + ಇಂದ್ರ']
+Given word : ಧರೇಂದ್ರ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಧರ + ಇಂದ್ರ']
+Given word : ಮಹೇಶ್ವರ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಮಹ + ಈಶ್ವರ']
+Given word : ಚಂದ್ರೋದಯ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಚಂದ್ರ + ಉದಯ']
+Given word : ಏಕೈಕ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಏಕ + ಏಕ']
+Given word : ಅಷ್ಟೈಶ್ವರ್ಯ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಅಷ್ಟ + ಐಶ್ವರ್ಯ']
+Given word : ವನೌಷಧಿ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ವನ + ಔಷಧಿ']
+Given word : ಮಹೌನ್ನತ್ಯ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಮಹ + ಔನ್ನತ್ಯ']
+Given word : ಲೋಕೈಕವೀರ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಲೋಕ + ಏಕವೀರ']
+Given word : ಹತ್ತಿರದಲ್ಲಿ
+found_print = [1, '\nಲೋಪ ಸಂಧಿ  => ಹತ್ತಿರದ + ಅಲ್ಲಿ']
+Given word : ಜನೈಕ್ಯ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಜನ + ಐಕ್ಯ']
+Given word : ಜಲೌಘ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಜಲ + ಓಘ']
+Given word : ಘನೌದಾರ್ಯ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಘನ + ಔದಾರ್ಯ']
+Given word : ಮಹೌದಾರ್ಯ
+found_print = [1, '\nವ್ರುದ್ಧಿ ಸಂಧಿ  => ಮಹ + ಔದಾರ್ಯ']
+Given word : ಅತ್ಯಂತ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಅತಿ + ಅಂತ']
+Given word : ಮನ್ವಂತರ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಮನು + ಅಂತರ']
+Given word : ಪಿತ್ರಾರ್ಜಿತ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಪಿತೃ + ಆರ್ಜಿತ']
+Given word : ಅತ್ಯವಸರ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಅತಿ + ಅವಸರ']
+Given word : ಜಾತ್ಯಾತೀತ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಜಾತಿ + ಆತೀತ']
+Given word : ಕೋಟ್ಯಧೀಶ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಕೋಟಿ + ಅಧೀಶ']
+Given word : ಗತ್ಯಂತರ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಗತಿ + ಅಂತರ']
+Given word : ಪ್ರತ್ಯುತ್ತರ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಪ್ರತಿ + ಉತ್ತರ']
+Given word : ಪ್ರತ್ಯರ್ಥ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಪ್ರತಿ + ಅರ್ಥ']
+Given word : ಅತ್ಯಾಶೆ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಅತಿ + ಆಶೆ']
+Given word : ಅಧ್ಯಾತ್ಮ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಅಧಿ + ಆತ್ಮ']
+Given word : ಗುರ್ವಾಜ್ಞೆ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಗುರು + ಆಜ್ಞೆ']
+Given word : ವಧ್ವಾಭರಣ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ವಧು + ಆಭರಣ']
+Given word : ವಧ್ವನ್ವೇಷಣೆ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ವಧು + ಅನ್ವೇಷಣೆ']
+Given word : ಪಿತ್ರರ್ಥ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಪಿತೃ + ಅರ್ಥ']
+Given word : ಮಾತ್ರಾಂಶ
+found_print = [1, '\nಯಣ್ ಸಂಧಿ  => ಮಾತೃ + ಅಂಶ']
+Given word : ದಿಗಂತ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ದಿಕ್ + ಅಂತ']
+Given word : ಷಡಾನನ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಷಟ್ + ಆನನ']
+Given word : ಸದಾನಂದ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಆನಂದ']
+Given word : ಅಬ್ಧಿ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಅಪ್ + ಧಿ']
+Given word : ವಾಗ್ದೇವಿ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ವಾಕ್ + ದೇವಿ']
+Given word : ವಾಗ್ದಾನ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ವಾಕ್ + ದಾನ']
+Given word : ವಾಗಧಿಪ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ವಾಕ್ + ಅಧಿಪ']
+Given word : ದಿಗ್ದೇಶ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ದಿಕ್ + ದೇಶ']
+Given word : ದಿಗ್ದಿಗಂತ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ದಿಕ್ + ದಿಗಂತ']
+Given word : ದಿಗ್ದೇವತೆ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ದಿಕ್ + ದೇವತೆ']
+Given word : ಅಜಂತ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಅಚ್ + ಅಂತ']
+Given word : ಅಜಾದಿ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಅಚ್ + ಆದಿ']
+Given word : ಷಡಂಗ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಷಟ್ + ಅಂಗ']
+Given word : ಷಡಂಗನೆ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಷಟ್ + ಅಂಗನೆ']
+Given word : ವಿರಾಡ್ರೂಪ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ವಿರಾಟ್ + ರೂಪ']
+Given word : ಸದುದ್ದೇಶ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಉದ್ದೇಶ']
+Given word : ಚಿದಾನಂದ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಚಿತ್ + ಆನಂದ']
+Given word : ಸದ್ಭಾವ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಭಾವ']
+Given word : ಸದುದ್ಯೋಗ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಉದ್ಯೋಗ']
+Given word : ಅಬ್ಜ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಅಪ್ + ಜ']
+Given word : ಸದುತ್ತರ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಉತ್ತರ']
+Given word : ಅಬ್ದ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಅಪ್ + ದ']
+Given word : ಅಬಂಶ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಅಪ್ + ಅಂಶ']
+Given word : ಸತ್ಕವಿ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಕವಿ']
+Given word : ದಿಕ್ಸೂಚಿ
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ದಿಕ್ + ಸೂಚಿ']
+Given word : ಮನಶ್ಶುದ್ಧಿ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಮನಸ್ + ಶುದ್ಧಿ']
+Given word : ಯಶಶ್ಚಂದ್ರಿಕೆ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಯಶಸ್ + ಚಂದ್ರಿಕೆ']
+Given word : ಲಸಚ್ಚಿತ್ರ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಲಸತ್ + ಚಿತ್ರ']
+Given word : ಸಚ್ಚಿತ್ರ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಸತ್ + ಚಿತ್ರ']
+Given word : ಪಯಶ್ಶಯನ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಪಯಸ್ + ಶಯನ']
+Given word : ಜಗಜ್ಯೋತಿ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಜಗತ್ + ಜ್ಯೋತಿ']
+Given word : ಸಜ್ಜನ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಸತ್ + ಜನ']
+Given word : ಮನಶ್ಚಂಚಲ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಮನಸ್ + ಚಂಚಲ']
+Given word : ಶರಚ್ಚಂದ್ರ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಶರತ್ + ಚಂದ್ರ']
+Given word : ವಾಙ್ಮಯ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ವಾಕ್ + ಮಯ']
+Given word : ಷಣ್ಮುಖ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಷಟ್ + ಮುಖ']
+Given word : ಸನ್ಮಾನ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಸತ್ + ಮಾನ']
+Given word : ದಿಙ್ನಾಗ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ದಿಕ್ + ನಾಗ']
+Given word : ಷಣ್ಮಾಸ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಷಟ್ + ಮಾಸ']
+Given word : ವಾಙ್ಮಾಧುರ್ಯ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ವಾಕ್ + ಮಾಧುರ್ಯ']
+Given word : ಚಿನ್ಮಯ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಚಿತ್ + ಮಯ']
+Given word : ಚಿನ್ಮೂಲ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಚಿತ್ + ಮೂಲ']
+Given word : ಸನ್ಮಣಿ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಸತ್ + ಮಣಿ']
+Given word : ಕಮ್ಮನಿ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಕಪ್ + ಮಾನಿ']
+Given word : ದೇವರ್ಷಿ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ದೇವ + ಋಷಿ']
+Given word : ಮಹರ್ಷಿ
+found_print = [1, '\nಗುಣ ಸಂಧಿ  => ಮಹಾ + ಋಷಿ']
+Given word : ಜಗನ್ಮಾತಾ
+found_print = [1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಜಗತ್ + ಮಾತಾ']
+Given word : ಜಗದ್ಗುರು
+found_print = [1, '\nಜಸ್ತ್ವ ಸಂಧಿ  => ಜಗತ್ + ಗುರು']
+Given word : ಯತೀಶ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಯತಿ + ಈಶ']
+Given word : ದೇವಾಲಯ
+found_print = [1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ದೇವ + ಆಲಯ']
+Given word : ಜಗಜ್ಜನನಿ
+found_print = [1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಜಗತ್ + ಜನನಿ']
+Given word : ಸಾಮಾನ್ಯವಾಗಿ
+[1, '\nಆಗಮ ಸಂಧಿ  => ಸಾಮಾನ್ಯ + ಆಗಿ']
+Given word : ಸಮಸ್ಯೆಯನ್ನು
+[1, '\nಆಗಮ ಸಂಧಿ  => ಸಮಸ್ಯೆ + ಅನ್ನು']
+Given word : ಸ್ಥಳದಲ್ಲಿ
+[1, '\nಲೋಪ ಸಂಧಿ  => ಸ್ಥಳದ + ಅಲ್ಲಿ']
+Given word : ವ್ಯವಸ್ಥೆಯಲ್ಲಿ
+[1, '\nಆಗಮ ಸಂಧಿ  => ವ್ಯವಸ್ಥೆ + ಅಲ್ಲಿ']
+Given word : ವ್ಯವಸ್ಥೆಯಲ್ಲಿ
+[1, '\nಆಗಮ ಸಂಧಿ  => ವ್ಯವಸ್ಥೆ + ಅಲ್ಲಿ']
+Given word : ವ್ಯವಸ್ಥೆಯ
+[1, '\nಆಗಮ ಸಂಧಿ  => ವ್ಯವಸ್ಥೆ + ಅ']
+Given word : ಪದಾರ್ಥವನ್ನು
+[1, '\nಆಗಮ ಸಂಧಿ  => ಪದಾರ್ಥ + ಅನ್ನು']
+Given word : ವ್ಯವಸ್ಥೆಯ
+[1, '\nಆಗಮ ಸಂಧಿ  => ವ್ಯವಸ್ಥೆ + ಅ']
+Given word : ಪ್ರಾರಂಭದಿಂದಲೇ
+[1, '\nಲೋಪ ಸಂಧಿ  => ಪ್ರಾರಂಭದ + ಇಂದಲೇ']
+Given word : ದೇವಾಲಯ
+[1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ದೇವ + ಆಲಯ']
+Given word : ವಯೋವೃದ್ಧಿ
+[1, '\nವಿಸರ್ಗ ಸಂಧಿ  => ವಯಸ್ + ವೃದ್ಧಿ']
+Given word : ಮಹೋನ್ನತಿ
+[1, '\nಗುಣ ಸಂಧಿ  => ಮಹ + ಉನ್ನತಿ']
+Given word : ವಾಗೀಶ
+[1, '\nಜಶ್ತ್ವ ಸಂಧಿ  => ವಾಕ್ + ಈಶ']
+Given word : ಮಾತಿಲ್ಲ
+[1, '\nಲೋಪ ಸಂಧಿ  => ಮಾತು + ಇಲ್ಲ']
+Given word : ಜಗನ್ಮಾತಾ
+[1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಜಗತ್ + ಮಾತಾ']
+Given word : ಜಗನ್ಮಾತಾ
+[1, '\nಅನುನಾಸಿಕ ಸಂಧಿ  => ಜಗತ್ + ಮಾತಾ']
+Given word : ಸದುತ್ತರ
+[1, '\nಜಶ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಉತ್ತರ']
+Given word : ಸದುತ್ತರ
+[1, '\nಜಶ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಉತ್ತರ']
+Given word : ಸದುತ್ತರ
+[1, '\nಜಶ್ತ್ವ ಸಂಧಿ  => ಸತ್ + ಉತ್ತರ']
+Given word : ಗುರುವನ್ನು
+[1, '\nಆಗಮ ಸಂಧಿ  => ಗುರು + ಅನ್ನು']
+Given word : ಹೊಸಗನ್ನಡ
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಹೊಸ + ಕನ್ನಡ']
+Given word : ಮಾತೃವನ್ನು
+[1, '\nಆಗಮ ಸಂಧಿ  => ಮಾತೃ + ಅನ್ನು']
+Given word : ಆವುಂಗುರ
+[1, '\nಆಗಮ ಸಂಧಿ  => ಆ + ಉಂಗುರ']
+Given word : ಈಯುದಕ
+[1, '\nಆಗಮ ಸಂಧಿ  => ಈ + ಉದಕ']
+Given word : ಬೇರೊಬ್ಬ
+[0, '']
+Given word : ಬೇರೊಬ್ಬ
+[0, '']
+Given word : ಬೇರೊಬ್ಬ
+[0, '']
+Given word : ಬೇರೊಬ್ಬ
+[0, '']
+Given word : ಬೇರೊಬ್ಬ
+[1, '\nಲೋಪ ಸಂಧಿ  => ಬೆರೆ + ಒಬ್ಬ']
+Given word : ಬೇರೊಬ್ಬ
+[0, '']
+Given word : ಬೇರೊಬ್ಬ
+[1, '\nಲೋಪ ಸಂಧಿ  => ಬೇರೆ + ಒಬ್ಬ']
+Given word : ಬೆಂಬತ್ತು
+[0, '']
+Given word : ಬೆಂಬತ್ತು
+[0, '']
+Given word : ಕಂಬನಿ
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಕಣ್ + ಪನಿ']
+Given word : ಬೆಂಬತ್ತು
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಬೆನ್ + ಪತ್ತು']
+Given word : ನೊರೆವಾಲು
+[1, '\nಆದೇಶ ಸಂಧಿ  => ನೊರೆ + ಮಾಲು']
+Given word : ನೊರೆವಾಲು
+[1, '\nಆದೇಶ ಸಂಧಿ  => ನೊರೆ + ಪಾಲು']
+Given word : ಕೆನೆವಾಲು
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಕೆನೆ + ಪಾಲು']
+Given word : ಭೋರ್ಗರೆತ
+[0, '']
+Given word : ಭೋರ್ಗರೆತ
+[0, '']
+Given word : ಭೋರ್ಗರೆತ
+[0, '']
+Given word : ಭೋರ್ಗರೆತ
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಭೋರ್ + ಕರೆತ']
+Given word : ಕಾರ್ಯಾಚರಣೆ
+[1, '\nಯಣ್ ಸಂಧಿ  => ಕಾರಿ + ಆಚರಣೆ']
+Given word : ಬೇಯಿಸು
+[1, '\nಲೋಪ ಸಂಧಿ  => ಬೇಯು + ಇಸು']
+Given word : ಮನಶ್ಶುದ್ದಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[0, '']
+Given word : ಮನಶುದ್ಧಿ
+[1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಮನಸ್ + ಸುದ್ಧಿ']
+Given word : ಮನಶುದ್ಧಿ
+[1, '\nಶ್ಚುತ್ವ ಸಂಧಿ  => ಮನಸ್ + ಶುದ್ಧಿ']
+Given word : ಕಾಯಿದೆ
+[1, '\nಲೋಪ ಸಂಧಿ  => ಕಾಯ + ಇದೆ']
+Given word : ಕಾಯಿದೆ
+[1, '\nಆಗಮ ಸಂಧಿ  => ಕಾ + ಇದೆ']
+Given word : ಕಾಯಿದೆ
+[1, '\nಆಗಮ ಸಂಧಿ  => ಕಾ + ಇದೆ']
+Given word : ಮೈಯನ್ನು
+[1, '\nಆಗಮ ಸಂಧಿ  => ಮೈ + ಅನ್ನು']
+Given word : ಕಾಯದೆ
+[1, '\nಆಗಮ ಸಂಧಿ  => ಕಾ + ಅದೆ']
+Given word : ಎಳೆಗರು
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಎಳೆ + ಕರು']
+Given word : ಮೆಲ್ವಾತು
+[0, '']
+Given word : ವ್ಯಾಕರಣವನ್ನು
+[1, '\nಆಗಮ ಸಂಧಿ  => ವ್ಯಾಕರಣ + ಅನ್ನು']
+Given word : ಒಳ್ಳೆಯದಲ್ಲ
+[1, '\nಲೋಪ ಸಂಧಿ  => ಒಳ್ಳೆಯದು + ಅಲ್ಲ']
+Given word : ಊರೂರು
+[1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಊರು + ಉರು']
+Given word : ಊರೂರು
+[1, '\nಲೋಪ ಸಂಧಿ  => ಊರೆ + ಊರು']
+Given word : ಊರೂರು
+[1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ಊರು + ಊರು']
+Given word : ಕಲಿಯದಿರುವುದು
+[0, '']
+Given word : ಕಳೆಗೂಡಿ
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಕಳೆ + ಕೂಡಿ']
+Given word : ಮೇರೆದಪ್ಪು
+[1, '\nಆದೇಶ ಸಂಧಿ  => ಮೇರೆ + ತಪ್ಪು']
+Given word : ಬೇರ್ವೆರಸಿ
+[0, '']
+Given word : ವಧೂಪೇತ
+[1, '\nಸವರ್ಣದೀರ್ಘ ಸಂಧಿ  => ವಧು + ಉಪೇತ']
+Given word : ಕಾರ್ಯಾಚರಣೆ
+[1, '\nಯಣ್ ಸಂಧಿ  => ಕಾರಿ + ಆಚರಣೆ']
+Given word : ಸತಾಯಿಸು
+[0, '']
+Given word : ಸೂರ್ಯೋದಯ
+[1, '\nಗುಣ ಸಂಧಿ  => ಸೂರ್ಯ + ಉದಯ']

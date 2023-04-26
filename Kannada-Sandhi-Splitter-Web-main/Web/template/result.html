@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+    <title>Result Page</title>
+    
+    <style>
+     html, body {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      }
+      
+  	p {
+  	text-align: center;
+	}
+	
+    .result-block {
+      max-width: 500px; 
+      font-size : 25px;
+      width : 450px;
+      height : 300px;
+      min-height: 340px; 
+      padding: 10px 0;
+      margin: auto;
+      top: 10%;
+      border-radius: 5px; 
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      background: #ebebeb; 
+      margin-top: 125px;
+      }
+      
+      
+      .checkboxes {
+  	position : absolute;
+    margin-top: -70px;
+
+  	top : 85%;
+      font-size : 25px;
+      
+      }
+      
+      .options {
+  	position : absolute;
+    margin-top: -65px;
+
+  	top : 90%;
+      font-size : 25px;
+      font-weight : normal;
+      
+      }
+      
+      .checkboxes input{
+  margin: 0px 5px 0px;
+}
+      .checkboxes label {
+  vertical-align: middle;
+  display: inline-block;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+.checkboxes input {
+  vertical-align: middle;
+}
+.checkboxes label span {
+  vertical-align: middle;
+}
+    
+    .login-info {
+      position : absolute;
+ 	top : 5%;
+      }
+      .login-info p {
+      font-size : 20px;
+      }
+      
+      .btn.btn-default.btn-sm {
+      width : 75px;
+      }
+      
+      .options label {
+      font-weight : normal;
+      }
+      
+      .options input{
+
+margin: 0 3px 0 30px;
+}
+
+   footer {
+  background-color: #ffffff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: none;
+  }
+  
+  .credits {
+    font-size: 12px;
+    color: #222;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .credits a {
+    color: #ccc;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    transition: border-bottom 0.2s;
+  }
+  
+  .credits a:hover {
+    border-bottom: 1px solid #fff;
+  }
+      
+    </style>
+ 
+    </head>
+    
+    <body>
+    
+    <div class="login-info" id="login-info">
+    
+    </div>
+    
+    <div class="result-block">
+    <p id="first"></p>
+    <p> <center> {{ res_dict[1] }} </center> </p> 
+    <p> ಹುಡುಕಿದ ಪದ : {{ res_dict[2] }}</p>
+    <p id='purva'> ಪೂರ್ವಪದ : {{ res_dict[3] }}</p>
+    <p id='uttara'> ಉತ್ತರಪದ : {{ res_dict[4] }} </p>
+    <p id='sandhi'> ಸಂಧಿ : {{ res_dict[5] }} </p>
+    
+    </div>
+    <div class='checkboxes' id="checkboxes">
+ 
+    
+   </div>
+    <div class="options" id="options">
+   
+   </div>
+   
+      <script>
+      
+      var w = '{{ res_dict[2] }}';
+      localStorage.setItem("inputword",w);
+     var name = sessionStorage.getItem("username");
+    var inst = sessionStorage.getItem("institution");
+      
+      function redirecthome() {
+     
+   document.location.href = "/";
+}
+
+function redirectfeedback() {
+   document.location.href = "/feedback";
+}
+
+function senddata(data){
+
+var jqXHR = $.ajax({
+            method: "POST",
+            url: "/out",
+            async: false,
+            data: {  data }
+        });
+      return jqXHR.responseText;
+  }
+  
+     function send(cval)
+       {
+       
+       var p = document.getElementById("purva").innerText;
+     var u = document.getElementById("uttara").innerText;
+     var s = document.getElementById("sandhi").innerText;
+     
+     var dict = {
+  	inputword: w,
+  	purvapada: p,
+  	uttarapada : u,
+  	sandhi : s,
+  	name : name,
+  	inst : inst,
+  	cval : cval
+	};
+	
+       result =  senddata(dict);
+       localStorage.setItem("res",result);
+        }
+function redirectout() { 
+
+	var val = document.getElementById("four").value;
+    send(val);
+     document.location.href = "/out";
+}
+
+
+    var purva = '{{ res_dict[3] }}';
+    var uttara = '{{ res_dict[4] }}';
+    var sandhi = '{{ res_dict[5] }}';
+    var flag=1;
+    if ((''.localeCompare(purva) == 0) && (''.localeCompare(uttara) == 0) && (''.localeCompare(sandhi) == 0))
+    {
+    flag=0;
+    }
+    if(flag==0)
+    {
+    document.getElementById("purva").innerText = '';
+    document.getElementById("uttara").innerText = '';
+    document.getElementById("sandhi").innerText = '';
+    document.getElementById("first").innerHTML = "<br><br><br><br>";
+    document.getElementById("checkboxes").innerHTML = "<p> ' {{ res_dict[2] }} ' ಪದದ ಸಂಧಿ ಪದ ಛೇದ ನಿಮಗೆ ತಿಳಿದಿದೆಯೇ ? </p>";
+    document.getElementById("options").innerHTML += '<span><input type="checkbox" id="one" name="myRadios" onchange="redirectfeedback()"><label for="one"> ಹೌದು </label>';
+    document.getElementById("options").innerHTML += '<input type="checkbox" id="five" value="ಇಲ್ಲ" name="myRadios" onchange="redirectilla()"> <label for="five">ಇಲ್ಲ</label></span>';
+    }
+    else
+    {
+    document.getElementById("first").innerHTML = "<br>";
+    document.getElementById("checkboxes").innerHTML = "<p> ' {{ res_dict[2] }} ' ಪದದ ಸಂಧಿ ಪದ ಛೇದ ಸರಿಯಾಗಿದೆಯೇ ? </p>";
+    document.getElementById("options").innerHTML += '<span><input type="checkbox" id="four" name="myRadios" value="ಹೌದು" onchange="redirectout()"> <label for="four">ಹೌದು </label>';
+    document.getElementById("options").innerHTML += '<input type="checkbox" id="two" name="myRadios" onchange="redirectfeedback()"> <label for="two">ಇಲ್ಲ </label>';
+    document.getElementById("options").innerHTML += '<input type="checkbox" id="three" name="myRadios" value="ಗೊತ್ತಿಲ್ಲ" onchange="redirectgottilla()"> <label for="three">ಗೊತ್ತಿಲ್ಲ</label> </span>';
+    
+    
+    }
+    
+ var last;
+document.addEventListener('input',(e)=>{
+if(e.target.getAttribute('name')=="myRadios"){
+if(last)
+last.checked=false;
+}
+e.target.checked=true;
+last=e.target;
+})
+
+var name = sessionStorage.getItem("username");
+    var inst = sessionStorage.getItem("institution");
+    if (name && inst)
+    {
+   document.getElementById("login-info").innerHTML = "<center> <p> You have logged in as "+name+"-"+inst+" "+"<br><button type='button' id='logout' onclick='redirectlogin()' class='btn btn-default btn-sm'> <span class='glyphicon glyphicon-log-out'></span> Log out</button></p> </center> <br>";
+    }
+    else
+    {
+    document.getElementById("login-info").innerHTML = "<center> <p> You have not logged in. <br> <button type='button' id='login' onclick='redirectlogin()' class='btn btn-default btn-sm'> <span class='glyphicon glyphicon-log-out'></span> Log in</button></p> </center> <br>";
+    }
+    
+    function redirectlogin()
+    {
+    document.location.href = "/login";
+    }
+    
+    function redirectgottilla()
+    {
+    var val = document.getElementById("three").value;
+    send(val);
+     document.location.href = "/out";
+    }
+    
+    function redirectilla()
+    {
+    var cval = document.getElementById("five").value;
+     var dict = {
+  	inputword: w,
+  	name : name,
+  	inst : inst,
+  	cval : cval
+	};
+	
+	result =  senddata(dict);
+	localStorage.setItem("res",result);
+	 document.location.href = "/out";
+    }
+    </script>
+
+     <footer>
+  <p>&copy; <b>Copyright DL-DL MT All Rights Reserved</b></p>
+  <div class="credits">
+    <b>Developed by Pranam R Betrabet and Yathish Poojary</b>
+  </div>
+</footer>
+
+    </body>
+    </html>
+    
