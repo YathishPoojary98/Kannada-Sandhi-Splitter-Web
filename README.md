@@ -22,7 +22,7 @@ git clone https://github.com/YathishPoojary98/Kannada-Sandhi-Splitter-Web.git
 ```
 Navigate into the cloned directory:
 ```bash
-cd Kannada-Sandhi-Splitter-Web/Web
+cd Kannada-Sandhi-Splitter-Web/Kannada-Sandhi-Splitter-Web/Web
 ```
 
 ### 2️⃣ Install Dependencies
@@ -54,7 +54,7 @@ The application will run on `http://0.0.0.0:<port>`.
 ## 📂 Repository Structure
 
 ```
-Kannada-Sandhi-Splitter-Web/Web/
+Kannada-Sandhi-Splitter-Web/Kannada-Sandhi-Splitter-Web/Web/
 │── app.py                    # Flask application
 │── templates/
 │   ├── index.html            # Home page
